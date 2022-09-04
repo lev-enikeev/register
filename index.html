@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="header">
+            <span>Вход</span>
+            <span class="reg">Регистрация</span>
+        </div>
+        <form>
+            <div class="inputs">
+                <input type="text" id="password-inpute"placeholder="Введите Логин"   >
+                <div class="password" >
+                    <input type="password" id="password-input" placeholder="Введите пароль" name="password">
+                    <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                </div>
+            </div>
+            <div class="buttons">
+                <button>Войти</button>
+                <button class="registration">Регистрация</button>
+            </div>
+            <a href="index.html" target="_blank">Забыли парроль?</a>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
